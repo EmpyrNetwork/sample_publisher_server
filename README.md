@@ -1,6 +1,6 @@
 # Empyr Publisher Sample
 
-This project demonstrates a sample publisher backend implemented using Spring Boot and JPA. It has endpoints that support user registration and login, oauth access tokens, card signup and venue search. This project is required for the accompanying sample front-end to run properly.
+This project demonstrates a sample publisher backend implemented using Spring Boot and JPA. It has endpoints that support user registration and login, oauth access tokens, card signup and venue search. This project is required for the accompanying sample front-end to run properly (https://github.com/EmpyrNetwork/sample_publisher_app).
 
 ## Compiling and Running Locally
 
