@@ -2,13 +2,13 @@
 
 This project demonstrates a sample publisher backend implemented using Spring Boot and JPA. It has endpoints that support user registration and login, oauth access tokens, card signup and venue search. This project is required for the accompanying sample front-end to run properly.
 
-## Running Locally
+## Compiling and Running Locally
 
-Run `npm install` to install the dependencies and `npm start` to run the app locally. Navigate to `http://localhost:4200/` to view the app. The app will automatically reload if you change any of the source files. The app also needs to be configured to use the accompanying API server.
+The project uses Maven to manage dependencies and compilation. In the terminal, cd into the project root directory and type <b>mvn package</b> to build the application. This will generate a target folder in the project's root directory. To run the application, cd into the target folder and type <b>java -jar api-consumer-0.1.0.jar</b>
 
 ## Configuration
 
-The following environment variables need to be set:
+The following environment variables need to be set for the application to run properly:
 
 ```html
 MOGL_API_KEY - the Empyr API key in the test environment
