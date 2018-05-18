@@ -1,6 +1,6 @@
 # Empyr Publisher Sample
 
-This project demonstrates a sample publisher backend implemented using Spring Boot and JPA. It has endpoints that support user registration and login, oauth access tokens, card signup and venue search. This project is required for the accompanying sample front-end to run properly (https://github.com/EmpyrNetwork/sample_publisher_app).
+This project demonstrates a sample publisher backend implemented using Spring Boot and JPA. It has endpoints for user registration and login, oauth access tokens, card signup, venue search and a webhook. This project is required for the accompanying sample front-end to run properly (https://github.com/EmpyrNetwork/sample_publisher_app).
 
 ## Compiling and Running Locally
 
@@ -31,3 +31,7 @@ The Hosted Fields implementation can be found in the <b>src/main/java/com/empyr/
 ## Venue Search
 
 The venue search API call is found in the <b>src/main/java/com/empyr/api/consumer/service/VenueSearchServiceImpl.java</b> file.
+
+## Webhook Implementation
+
+The webhook implementation can be found in the <b>src/main/java/com/empyr/api/consumer/controllers/EventController.java</b> file.
